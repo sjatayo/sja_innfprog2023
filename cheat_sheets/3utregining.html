@@ -13,25 +13,23 @@
 
 //definer variabler for familiemedelemmene og deres alder 
 
-const farAlder = 37 
-const morAlder = 32 
-const datterAlder = 7 
-const sønnAlder = 2 
+const farAlder = 37; 
+const morAlder = 32;
+const datterAlder = 7;
+const sønnAlder = 2;
 
 //beregn gjennomsnittsalderen 
 
-const gjennomsnittsAlder = farAlder + morAlder + datterAlsder + sønnalder
+const gjennomsnittsAlder = (farAlder + morAlder + datterAlder + sønnAlder) /4;
 
 
-
-
-
-
-
-
-
+//skriv gjennomsnittsalderen ut i en <p>-tag med id "average"
+document.getElementById("average").textContent = "Gjennomsnittsalderen er" + gjennomsnittAlder.toFixed(2) + "år.";
 
 </script>
+
+
+<p id="average"></p>
 
 
     
